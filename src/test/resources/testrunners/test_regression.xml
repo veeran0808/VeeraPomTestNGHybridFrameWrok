@@ -25,7 +25,7 @@
 
 
 
-	<!-- <test name="Accounts Page Test">
+ <test name="Accounts Page Test">
 		<parameter name="browser" value="chrome" />
 		<parameter name="browserversion" value="125.0" />
 		<parameter name="testname" value="Accounts Page Test" />
