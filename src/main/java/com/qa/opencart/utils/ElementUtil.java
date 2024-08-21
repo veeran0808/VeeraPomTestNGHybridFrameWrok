@@ -44,9 +44,9 @@ public class ElementUtil {
 			throw new ElementException("VALUE IS NULL" + value);
 		}
 	}
-	
+
 	private void highlightElement(WebElement element) {
-		if(Boolean.parseBoolean(DriverFactory.highlight)) {
+		if (Boolean.parseBoolean(DriverFactory.highlight)) {
 			jsUtil.flash(element);
 		}
 	}
@@ -365,7 +365,7 @@ public class ElementUtil {
 	 */
 	public WebElement waitForElementPresence(By locator, int timeOut) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOut));
-		WebElement element =  wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+		WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
 		highlightElement(element);
 		return element;
 	}
@@ -426,7 +426,7 @@ public class ElementUtil {
 		try {
 			return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 		} catch (Exception e) {
-			return List.of();//return empty arraylist
+			return List.of();// return empty arraylist
 		}
 	}
 
@@ -589,11 +589,9 @@ public class ElementUtil {
 
 	// click
 	// isPageLoaded -- new page
-	
+
 	public void naveenClick() {
 		System.out.println("click");
 	}
-	
-	
 
 }
