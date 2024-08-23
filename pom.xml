@@ -130,9 +130,9 @@
 					<forkCount>3</forkCount>
 					<reuseForks>true</reuseForks>
 					<suiteXmlFiles>
-						<!--
-						<suiteXmlFile>src/test/resources/testrunners/test_regression.xml</suiteXmlFile> -->
-						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						
+						<suiteXmlFile>src/test/resources/testrunners/test_regression.xml</suiteXmlFile>
+					<!--	<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>-->
 					</suiteXmlFiles>
 					<argLine>
 						--add-opens=jdk.compiler/com.sun.tools.javac.processing=ALL-UNNAMED
