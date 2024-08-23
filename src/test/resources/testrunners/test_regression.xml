@@ -1,7 +1,6 @@
 <suite name="Opencart App Test Regression Suite" thread-count="4"
 	parallel="tests" verbose="4">
 
-
 	<listeners>
 		<listener
 			class-name="com.qa.opencart.listeners.ExtentReportListener" />
@@ -11,36 +10,28 @@
 			/> -->
 	</listeners>
 
-
 	<test name="Login Page Test">
 		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="123.0" />
+		<parameter name="browserversion" value="118.0" />
 		<parameter name="testname" value="Login Page Test" />
-
-
 		<classes>
 			<class name="com.qa.opencart.tests.LoginPageTest" />
 		</classes>
 	</test>
 
-
-
- <test name="Accounts Page Test">
+	<test name="Accounts Page Test">
 		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="125.0" />
+		<parameter name="browserversion" value="116.0" />
 		<parameter name="testname" value="Accounts Page Test" />
-
 		<classes>
 			<class name="com.qa.opencart.tests.AccountsPageTest" />
 		</classes>
 	</test>
 
-
 	<test name="ProductInfo Page Test">
 		<parameter name="browser" value="chrome" />
-		<parameter name="browserversion" value="126.0" />
+		<parameter name="browserversion" value="118.0" />
 		<parameter name="testname" value="ProductInfo Page Test" />
-
 		<classes>
 			<class name="com.qa.opencart.tests.ProductInfoPageTest" />
 		</classes>
@@ -48,13 +39,11 @@
 
 	<test name="Reg Page Test">
 		<parameter name="browser" value="firefox" />
-		<parameter name="browserversion" value="124.0" />
+		<parameter name="browserversion" value="117.0" />
 		<parameter name="testname" value="Reg Page Test" />
-
 		<classes>
 			<class name="com.qa.opencart.tests.RegisterPageTest" />
 		</classes>
-	</test> -->
+	</test>
 
-
-</suite>	
+</suite>
