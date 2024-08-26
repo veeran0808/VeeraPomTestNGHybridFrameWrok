@@ -37,13 +37,13 @@
 		</classes>
 	</test>
 
-	<test name="Reg Page Test">
+	<!-- <test name="Reg Page Test">
 		<parameter name="browser" value="firefox" />
 		<parameter name="browserversion" value="117.0" />
 		<parameter name="testname" value="Reg Page Test" />
 		<classes>
 			<class name="com.qa.opencart.tests.RegisterPageTest" />
 		</classes>
-	</test>
+	</test> -->
 
 </suite>

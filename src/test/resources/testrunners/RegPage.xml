@@ -10,12 +10,12 @@
 			/> -->
 	</listeners>
 
-	<test name="Login Page Test">
-		<parameter name="browser" value="chrome" />
+	<test name="Reg Page Test">
+		<parameter name="browser" value="firefox" />
 		<parameter name="browserversion" value="118.0" />
-		<parameter name="testname" value="Login Page Test" />
+		<parameter name="testname" value="Reg Page Test" />
 		<classes>
-			<class name="com.qa.opencart.tests.LoginPageTest" />
+			<class name="com.qa.opencart.tests.RegisterPageTest" />
 		</classes>
 	</test>
 
