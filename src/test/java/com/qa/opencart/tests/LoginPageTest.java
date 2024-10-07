@@ -25,7 +25,7 @@ public class LoginPageTest extends BaseTest {
 
 	@Description("checking login page title test ----")
 	@Severity(SeverityLevel.MINOR)
-	@Owner("Naveen Automation Labs")
+	@Owner("Veera Gopi Krishna")
 	@Issue("Login-1234")
 	@Test(priority = 1)
 	public void loginPageTitleTest() {
@@ -35,7 +35,7 @@ public class LoginPageTest extends BaseTest {
 
 	@Description("checking login page url ----")
 	@Severity(SeverityLevel.NORMAL)
-	@Owner("Naveen Automation Labs")
+	@Owner("Veera Gopi Krishna")
 	@Test(priority = 2)
 	public void loginPageURLTest() {
 		String actURL = loginPage.getLoginPageURL();
@@ -44,7 +44,7 @@ public class LoginPageTest extends BaseTest {
 
 	@Description("checking forgot password link exist on the login page ----")
 	@Severity(SeverityLevel.CRITICAL)
-	@Owner("Naveen Automation Labs")
+	@Owner("Veera Gopi Krishna")
 	@Test(priority = 3)
 	public void forgotPwdLinkExistTest() {
 		Assert.assertTrue(loginPage.checkForgotPwdLinkExist(), AppError.ELEMENT_NOT_FOUND);
@@ -52,7 +52,7 @@ public class LoginPageTest extends BaseTest {
 
 	@Description("checking user is able to login to app successfully ----")
 	@Severity(SeverityLevel.BLOCKER)
-	@Owner("Naveen Automation Labs")
+	@Owner("Veera Gopi Krishna")
 	@Test(priority = 4)
 	public void loginTest() {
 		accPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
