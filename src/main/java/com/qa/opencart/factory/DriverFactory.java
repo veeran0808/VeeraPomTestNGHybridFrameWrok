@@ -271,7 +271,7 @@ public class DriverFactory {
      * 3. **Environment-Specific Configuration**:
      *    - It handles loading configuration properties from files based on the environment (e.g., QA, Stage, Dev), ensuring that the correct settings are applied.
      * 
-     * 4. **Thread-Safe WebDriver Management**:
+     * 4. **Thread-Safe WebDriver Management***:
      *    - Uses `ThreadLocal` to manage WebDriver instances, ensuring thread safety in parallel test execution.
      * 
      * 5. **Utility Functions**:
