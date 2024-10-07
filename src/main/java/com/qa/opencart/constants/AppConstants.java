@@ -5,7 +5,7 @@ import java.util.List;
 
 public class AppConstants {
 
-    // Private constructor to prevent instantiation
+    // Private constructor to prevent instantiation, hi
     private AppConstants() {}
 
     // File paths for various environment configurations
